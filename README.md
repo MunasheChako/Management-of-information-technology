@@ -1,13 +1,16 @@
-GROUP PROJECT
+** PROJECT**
 Project requirements:
 - name of your application
 - short description about your application
 - functional and non-functional requirements of your application
 - technology: database, programming language - up to you
 - full working application (endgame)
+
+  
 Recipe Sharing Website: Create a platform where users can share their favorite recipes,
 search for recipes by specific ingredients, and save those they want to try. You could
 implement advanced search functionality and recipe ratings.
+
 1. Planning and Design: Before diving into coding, it's important to plan and design
 the structure of your web application. Define the main requirements such as user
 registration, recipe uploading, ingredient-based recipe search, saving favorite
@@ -38,13 +41,16 @@ backend and Jest or Cypress for the frontend.
 7. Deployment: Finally, when your web application is ready to be published, you
 can set up a production server and deploy your application. You can use hosting
 services like Heroku, AWS, or DigitalOcean to host your web application.
+
 (Draft piece)
-Name of the Application: CookBook Community
+
+**Name of the Application**: CookBook Community
 Short Description: CookBook Community is a web platform where users can share,
 discover, and save their favorite recipes. Users can search for recipes by specific
 ingredients, explore advanced search options, rate recipes, and save them for future
 reference.
-Functional Requirements:
+
+**Functional Requirements:**
 ● User Registration: Users should be able to create accounts on the platform.
 ● Add Recipe: Registered users can upload their own recipes, including ingredients,
 instructions, and images.
