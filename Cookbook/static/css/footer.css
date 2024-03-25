@@ -1,0 +1,50 @@
+/*
+*
+* ==========================================
+* Footer Styles
+* ==========================================
+*
+*/
+
+.custom-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #FF5733;
+  background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+  background: linear-gradient(to right, #ff5f6d, #ffc371);
+  padding-top: 20px; /* Aggiungi uno spazio in cima al footer */
+}
+.custom-footer::before {
+  content: "";
+  display: block;
+  top: -5px; /* Regola la posizione verticale della linea sopra il footer */
+  left: 0;
+  width: 100%;
+  height: 10px; /* Regola l'altezza della linea */
+  background: rgba(0, 0, 0, 0.1); /* Colore dell'ombra */
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1); /* Aggiunto effetto di ombra */
+}
+
+
+.custom-footer .font-weight-bold {
+  font-weight: bold;
+}  
+
+.custom-footer #button-addon1 {
+  color: #ffc371;
+}
+
+.custom-footer i {
+  color: #ffc371;
+}
+
+.custom-footer .form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.custom-footer .form-control.shadow-0:focus {
+  box-shadow: none;
+}
